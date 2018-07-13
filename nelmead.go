@@ -16,7 +16,7 @@
 // Package nelmead is s a small implementation of the Nelder-Mead optimization algorithm
 // with minimal dependencies. It strictly follows the algorithm as described in:
 //
-//    - // https://en.wikipedia.org/wiki/Nelder%E2%80%93Mead_method.
+// https://en.wikipedia.org/wiki/Nelder-Mead_method
 //
 package nelmead
 
