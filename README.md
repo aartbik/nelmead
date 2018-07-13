@@ -1,6 +1,6 @@
 # Nelder-Mead Optimization in Go 
 
-Package `nelmead` is s a small implementation of the Nelder-Mead optimization
+Package `nelmead` is a small implementation of the Nelder-Mead optimization
 algorithm in Go with minimal dependencies. It strictly follows the algorithm as
 described in  https://en.wikipedia.org/wiki/Nelder%E2%80%93Mead_method. 
 
