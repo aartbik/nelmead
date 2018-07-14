@@ -22,7 +22,7 @@ func TestNelderMeadOptimizer_Optimize(t *testing.T) {
 	const tol = 1.E-9
 	start := []float64{-1.0, 1.0}
 	step := 0.5
-	nm := MakeNelderMeadOptimizer(Rosenbrock, 2)
+	nm := NewNelderMeadOptimizer(Rosenbrock, 2)
 	xval, opt, converged := nm.Optimize(200, start, step)
 	if xval[0]-1.0 > tol || xval[1]-1.0 > tol || !converged {
 		t.Errorf("%v %v %v", xval, opt, converged)

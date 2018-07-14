@@ -1,5 +1,6 @@
 # Nelder-Mead Optimization in Go 
 
+
 Package `nelmead` is a small implementation of the Nelder-Mead optimization
 algorithm in Go with minimal dependencies. It strictly follows the algorithm as
 described in  https://en.wikipedia.org/wiki/Nelder%E2%80%93Mead_method. 
@@ -11,7 +12,7 @@ It requires a yield or optimizing function, and the number of parameters to be
 optimized (dim)
 
 ```go
-	func MakeNelderMeadOptimizer(f func([]float64) float64, dim int) *NelderMeadOptimizer 
+	func NewNelderMeadOptimizer(f func([]float64) float64, dim int) *NelderMeadOptimizer 
 ```
 
 Default values for the optimizer can be used, but if you want to tweak the
